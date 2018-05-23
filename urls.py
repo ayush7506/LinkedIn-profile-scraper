@@ -5,8 +5,10 @@ from tqdm import tqdm
 
 
 query_keyword = ["Ayush Sinha", "Dipankar Narendra Arya"] 
-email = "aman20010@gmail.com"
-password = "Kamineye_12345"
+print ('Enter the linkedin emai')
+email = input()
+print ("Enter the LinkedIn password")
+password = input()
 
 #Open Chrome web 
 driver = webdriver.Chrome()
