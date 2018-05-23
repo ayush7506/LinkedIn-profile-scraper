@@ -1,11 +1,11 @@
 from selenium import webdriver
 import time
 
-query_keyword = ["Ayush Sinha", "Dipankar Narendra Arya"] 
+query_keyword = ["Adarsh Jatia", "Ajitsingh Dhingra","Arun Chandrachudan PMP","Dipak Sharma","Monish Ahuja","Nikhil Chaturvedi","Nirav Mehta","Ramesh Ganesan","Sajjan Kedia"] 
 print ('Enter the linkedin email')
-email = input()
+email= "ayush7506@gmail.com"
 print ("Enter the LinkedIn password")
-password = input()
+password= "%Babul97"
 
 #Open Chrome web 
 driver = webdriver.Chrome()
@@ -44,8 +44,9 @@ def getConnections(driver):
 	return conn
 
 def saveAsCSV(data):
-	fileName = "result.csv"
+	fileName = "linkedin_result.csv"
 	f = open(fileName, "a")
+        headers="Name,Location,Education,Connections\n"
 	f.write(data + '\n')
 
 #For each profile name in query_keywords, retrive name, education, experience and number of connections
@@ -91,4 +92,6 @@ for query in query_keyword:
 		saveAsCSV(data)
 	except Exception as e:
 		print("Exception in retrieving data" + e)
+
+
 
