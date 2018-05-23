@@ -3,9 +3,9 @@ import time
 
 query_keyword = ["Adarsh Jatia", "Ajitsingh Dhingra","Arun Chandrachudan PMP","Dipak Sharma","Monish Ahuja","Nikhil Chaturvedi","Nirav Mehta","Ramesh Ganesan","Sajjan Kedia"] 
 print ('Enter the linkedin email')
-email= "ayush7506@gmail.com"
+email= input()
 print ("Enter the LinkedIn password")
-password= "%Babul97"
+password= input()
 
 #Open Chrome web 
 driver = webdriver.Chrome()
