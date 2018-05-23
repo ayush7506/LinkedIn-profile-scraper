@@ -1,11 +1,8 @@
 from selenium import webdriver
 import time
-from bs4 import BeautifulSoup
-from tqdm import tqdm
-
 
 query_keyword = ["Ayush Sinha", "Dipankar Narendra Arya"] 
-print ('Enter the linkedin emai')
+print ('Enter the linkedin email')
 email = input()
 print ("Enter the LinkedIn password")
 password = input()
