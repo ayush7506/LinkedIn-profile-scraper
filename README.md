@@ -27,6 +27,6 @@ The scraped data are following
 7. sudo pip3 install selenium
 
 # Running the file
-1. Run scraper.py
+1. Run scraper.py (python3 scraper.py)
 2. It will prompt for email/password for your linkedin profile
 3. It will genrate a CSV file with all the scaped outputs
