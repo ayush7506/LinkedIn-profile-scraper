@@ -10,8 +10,8 @@ The scraped data are following
 # Requirements
 
   1. Python3 
-  2. pip3
-  3. Selenium
+  2. pip3 (sudo apt install python3-pip)
+  3. Selenium (pip3 install selenium)
   4. Google Chrome
   5. Chromewebdriver
 
