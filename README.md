@@ -1,6 +1,6 @@
 # LinkedIn-profile-scraper
 A python repository which scrapes basic linkedin profile informations
-To scrape linkedin profiles you need to signin with you own username/password. This program scrapes data for certain number of test profiles.
+To scrape linkedin profiles you need to signin with you own username/password. This program scrapes data for certain number of test profiles. The insructions provided is to make the sraper work over a Ubuntu 16.04 OS. However, if the applications provided in the requirements section are installed, it should work with Windows or MAC OSX
 The scraped data are following
   1. Name
   2. Location
