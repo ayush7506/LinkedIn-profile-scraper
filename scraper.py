@@ -5,7 +5,7 @@ query_keyword = ["Adarsh Jatia", "Ajitsingh Dhingra","Arun Chandrachudan PMP","D
 print ('Enter the linkedin email')
 email= input()
 print ("Enter the LinkedIn password")
-password= input()
+password= input()    
 
 #Open Chrome web 
 driver = webdriver.Chrome()
